@@ -1,0 +1,121 @@
+:root{
+    --color-a: #00040f;
+    --color-b: #02102e;
+    --color-c: #27b068;
+    --color-d: #44f082;
+    --color-e: #0a694b;
+    --color-f:#ffff;
+    --color-g:#067afc;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.herobar{
+    background-image:  url('../images/navbar.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding: 1rem 5rem;
+}
+
+.navbar-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.logo p{
+    color: var(--color-f);
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo p span:first-child{
+    font-weight: 800;
+}
+
+.logo p span:last-child{
+    margin-top: -10px;
+    font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+    font-style: 10px;
+
+    
+}
+
+.logo p span:first-child b{
+    color: var(--color-g);
+}
+
+
+/* MENU LINKS */
+
+.navlinks{
+    padding: auto;
+}
+
+.navlinks a{
+    
+    color: var(--color-f);
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 0 2rem;
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.2s;
+}
+
+.navlinks a:hover{
+color: var(--color-g);
+
+}
+
+.lets-talk{
+    background-color: var(--color-g);
+    padding: 7px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+
+}
+
+.lets-talk a{
+    color: var(--color-f);
+    text-decoration: none;
+    text-transform: capitalize;
+
+
+}
