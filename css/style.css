@@ -23,11 +23,11 @@ p{
 } 
 
 
-/* .hero-typing{
-    width: 20ch;
+.hero-typing{
+    width: 15ch;
     text-wrap:nowrap;
     overflow: hidden;
-    animation: typing 2s steps(90) infinite alternate-reverse;
+    animation: typing 3s steps(10) infinite alternate-reverse;
     
 
 }
@@ -35,4 +35,4 @@ p{
 
 @keyframes typing{
     from {width: 0ch;}
-} */
+}
